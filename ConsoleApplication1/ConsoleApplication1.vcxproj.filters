@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\People">
+      <UniqueIdentifier>{122e9bd8-a435-47ce-b638-9730943cb848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Controllers">
+      <UniqueIdentifier>{bd4039cb-b754-4307-94a4-85c66c5ea7a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\DAO">
+      <UniqueIdentifier>{0feb5f75-fb69-4017-981b-4d8d594df710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\FIle">
+      <UniqueIdentifier>{21aa5dfb-0db5-429c-89ff-0454d1a3edd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Factory">
+      <UniqueIdentifier>{e66d820a-5fe3-4c59-a743-4d6bcc8f8b75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Commands">
+      <UniqueIdentifier>{3f298ec4-0bc8-4a83-b7a8-138cd66fa89f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Исходные файлы\People</Filter>
+    </ClCompile>
+    <ClCompile Include="Professor.cpp">
+      <Filter>Исходные файлы\People</Filter>
+    </ClCompile>
+    <ClCompile Include="Dean.cpp">
+      <Filter>Исходные файлы\People</Filter>
+    </ClCompile>
+    <ClCompile Include="LabWorker.cpp">
+      <Filter>Исходные файлы\People</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleController.cpp">
+      <Filter>Исходные файлы\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonDAO.cpp">
+      <Filter>Исходные файлы\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonFactory.cpp">
+      <Filter>Исходные файлы\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="CSVFileManager.cpp">
+      <Filter>Исходные файлы\FIle</Filter>
+    </ClCompile>
+    <ClCompile Include="CSVPersonSerializerImpl.cpp">
+      <Filter>Исходные файлы\FIle</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandsManager.cpp">
+      <Filter>Исходные файлы\Commands</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonOccupation.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="DAO.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Serializer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonFactory.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonController.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandsManager.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
